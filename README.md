@@ -9,6 +9,8 @@ Once done .. execute the program in two ways
 A quick example 
 
 Use Hobbies as the file name and provide the path of the project on the given parameters. Once done just wait and this output has been produced.
+
+Terminal -----
 Enter the option 1.Record 2.use recorded:2
 Enter the path to the Auto-Speech_Rater directory: C:\Users\souja\Desktop\SpokenLanguageAssessment
 Filename (no extension please):    Hobbies
@@ -50,6 +52,5 @@ Relevancy
 Total Presence of topic: 8.200000000000001
 ===========================================
 RECORDING PROCESS IS DONE, press any key to terminate the programe
-
 
 Hope you will find this useful.
