@@ -312,7 +312,6 @@ try:
     print("====================================================================================================")
 
     filename = pathy+"/"+"dataset"+"/"+"essen"+"/"+"CART_model.sav"
-
     model = pickle.load(open(filename, 'rb'))
     predictions = model.predict(x)
     print("58% accuracy    ", predictions, "CART model")
@@ -334,12 +333,6 @@ try:
     model = pickle.load(open(filename, 'rb'))
     predictions = model.predict(x)
     print("64% accuracy    ", predictions, "NB model")
-
-    ilename = pathy+"/"+"essen"+"/"+"PCA_model.sav"
-
-    model = pickle.load(open(filename, 'rb'))
-    predictions = model.predict(x)
-    print("70% accuracy    ", predictions, "PCA model")
 
     print("==============================================")
     print("Sentiment Analysis")
