@@ -348,18 +348,18 @@ try:
     result = model.predict(rec)[0]
     print("result:", result)
     print("=============================================")
-    print("Grammatical Errors")
-    import language_check
-    tool = language_check.LanguageTool('en-US')
-    i = 0
-    fin = nltk.sent_tokenize(res[0][0])
-    for line in fin:
-        matches = tool.check(line)
-        i = i + len(matches)
+    #print("Grammatical Errors")
+    #import language_check
+    #tool = language_check.LanguageTool('en-US')
+    #i = 0
+    #fin = nltk.sent_tokenize(res[0][0])
+    #for line in fin:
+    #    matches = tool.check(line)
+    #    i = i + len(matches)
 
-    print("No. of mistakes found in the speech is ", i)
-    print("Accuracy per sentence:", i / len(fin))
-    print("==============================================")
+    #print("No. of mistakes found in the speech is ", i)
+    #print("Accuracy per sentence:", i / len(fin))
+    #print("==============================================")
     print("Relevancy")
     from nltk.tokenize import word_tokenize
     from collections import Counter
